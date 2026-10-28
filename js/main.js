@@ -172,7 +172,8 @@ function initCatalogue() {
       catTag.textContent = product.subCategory || product.category;
 
       const statusPill = document.createElement('span');
-      statusPill.className = 'status-pill status-in-development';
+      const isAvailable = product.status === 'Available';
+      statusPill.className = isAvailable ? 'status-pill status-available' : 'status-pill status-in-development';
       
       const dot = document.createElement('span');
       dot.className = 'status-dot';

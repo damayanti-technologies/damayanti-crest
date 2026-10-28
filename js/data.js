@@ -79,9 +79,12 @@ const DAMAYANTI_DATA = {
       associatedInitiative: {
         name: 'Sannivesham',
         focus: 'Telugu Language, Culture, Literature & History',
-        description: 'An independent initiative focused on Telugu language, culture, literature, history, traditional knowledge, and educational cultural content.',
-        url: null, // Keep null until verified official link is supplied
-        status: 'In Development'
+        description: 'An active cultural community dedicated to celebrating and promoting Telugu language, literature, history, and our traditions through its website and mobile app.',
+        url: 'https://sannivesham.com',
+        hasApp: true,
+        appNote: 'Website & Mobile App Live',
+        status: 'Available',
+        ctaLabel: 'Visit sannivesham.com'
       }
     },
     {
@@ -169,11 +172,13 @@ const DAMAYANTI_DATA = {
       divisionId: 'damayanti-heritage',
       divisionName: 'Damayanti Heritage',
       category: 'Heritage & Education',
-      subCategory: 'Cultural Initiative',
-      description: 'An independent initiative focused on Telugu language, culture, literature, history, traditional knowledge, and educational cultural content.',
-      status: 'In Development',
-      url: null,
-      ctaLabel: 'More details coming soon',
+      subCategory: 'Cultural Community & App',
+      description: 'An established cultural community and platform dedicated to celebrating and promoting Telugu language, literature, history, and our traditions through its official website and mobile application.',
+      status: 'Available',
+      url: 'https://sannivesham.com',
+      hasApp: true,
+      appNote: 'Website & Mobile App Live',
+      ctaLabel: 'Visit sannivesham.com',
       icon: 'assets/icons/heritage.svg'
     }
   ],
