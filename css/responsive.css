@@ -73,14 +73,14 @@
   }
 
   .hero-motif-card {
-    max-width: 300px;
-    padding: 1.75rem;
+    max-width: 280px;
+    padding: 0.35rem;
   }
 
   .hero-motif-img {
-    width: 130px;
-    height: 130px;
-    margin-bottom: 1rem;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
   }
 
   .principles-grid {
