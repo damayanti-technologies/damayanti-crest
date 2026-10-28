@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products & Initiatives Catalogue — Damayanti Crest</title>
+  <meta name="description" content="Explore products, digital tools, cultural initiatives, and merchandise projects across the Damayanti Crest ecosystem.">
+  <meta name="theme-color" content="#171B2B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Products & Initiatives Catalogue — Damayanti Crest">
+  <meta property="og:description" content="An independent business ecosystem bringing together technology, heritage, publications, and traditions.">
+  <meta property="og:image" content="./assets/logos/crest-mark.svg">
+
+  <link rel="icon" type="image/svg+xml" href="./assets/logos/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="./index.html" class="brand-link" aria-label="Damayanti Crest Homepage">
+        <div class="brand-emblem">
+          <img src="./assets/logos/crest-mark.svg" alt="" width="38" height="38">
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Damayanti Crest</span>
+          <span class="brand-tag">Ecosystem</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="./index.html" class="nav-link">Home</a></li>
+          <li><a href="./about.html" class="nav-link">About Us</a></li>
+          <li><a href="./brands.html" class="nav-link">Our Brands</a></li>
+          <li><a href="./products.html" class="nav-link">Products</a></li>
+          <li><a href="./partnerships.html" class="nav-link">Partnerships</a></li>
+          <li><a href="./contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="./brands.html" class="btn btn-primary btn-sm">Explore Our Brands</a>
+      </nav>
+
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav-drawer" aria-label="Open navigation menu">
+        <span class="menu-icon">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="mobile-nav-drawer" class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+      <ul class="mobile-nav-links">
+        <li><a href="./index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="./about.html" class="mobile-nav-link">About Us</a></li>
+        <li><a href="./brands.html" class="mobile-nav-link">Our Brands</a></li>
+        <li><a href="./products.html" class="mobile-nav-link">Products</a></li>
+        <li><a href="./partnerships.html" class="mobile-nav-link">Partnerships</a></li>
+        <li><a href="./contact.html" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-nav-cta">
+        <a href="./brands.html" class="btn btn-primary" style="width: 100%;">Explore Our Brands</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="site-main">
+
+    <!-- PAGE HEADER -->
+    <section class="section section-dark" style="padding-top: var(--space-3xl); padding-bottom: var(--space-3xl);">
+      <div class="container container-narrow text-center">
+        <span class="eyebrow">Ecosystem Catalogue</span>
+        <h1>Products & Initiatives</h1>
+        <p class="hero-subtitle" style="margin-bottom: 0;">
+          A central index of software tools, cultural programs, publications, and products across Damayanti Crest.
+        </p>
+      </div>
+    </section>
+
+    <!-- CATALOGUE SECTION -->
+    <section class="section" aria-labelledby="catalogue-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Browse by Discipline</span>
+          <h2 id="catalogue-heading" class="section-title">Initiatives Across Our Divisions</h2>
+          <p class="section-desc">Filter by domain to explore current projects and their development status.</p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="filter-tabs" role="tablist" aria-label="Product Categories">
+          <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Initiatives</button>
+          <button type="button" class="filter-btn" data-filter="technology" role="tab" aria-selected="false">Technology</button>
+          <button type="button" class="filter-btn" data-filter="heritage" role="tab" aria-selected="false">Heritage & Education</button>
+          <button type="button" class="filter-btn" data-filter="publications" role="tab" aria-selected="false">Publications</button>
+          <button type="button" class="filter-btn" data-filter="traditions" role="tab" aria-selected="false">Traditions & Merchandise</button>
+        </div>
+
+        <!-- Catalogue Dynamic Grid -->
+        <div id="catalogue-grid" class="products-grid" aria-live="polite">
+          <!-- Populated securely by js/main.js and js/data.js -->
+          <noscript>
+            <!-- Graceful Fallback for non-JS environments -->
+            <article class="product-card">
+              <div class="product-meta">
+                <span class="category-tag">Web Browser</span>
+                <span class="status-pill status-in-development">In Development</span>
+              </div>
+              <h3 class="product-title">SANDARSHANA</h3>
+              <p class="product-division">Damayanti Technologies</p>
+              <p class="product-desc">A browser project focused on providing a practical browsing experience.</p>
+              <div class="product-action">
+                <span class="product-status-note">More details coming soon</span>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-meta">
+                <span class="category-tag">QR Code Utility</span>
+                <span class="status-pill status-in-development">In Development</span>
+              </div>
+              <h3 class="product-title">SANKET QR</h3>
+              <p class="product-division">Damayanti Technologies</p>
+              <p class="product-desc">A QR code application project for creating and working with QR codes.</p>
+              <div class="product-action">
+                <span class="product-status-note">More details coming soon</span>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-meta">
+                <span class="category-tag">Game</span>
+                <span class="status-pill status-in-development">In Development</span>
+              </div>
+              <h3 class="product-title">ARROUT</h3>
+              <p class="product-division">Damayanti Technologies</p>
+              <p class="product-desc">A game project within the Damayanti Technologies ecosystem.</p>
+              <div class="product-action">
+                <span class="product-status-note">More details coming soon</span>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-meta">
+                <span class="category-tag">Cultural Initiative</span>
+                <span class="status-pill status-in-development">In Development</span>
+              </div>
+              <h3 class="product-title">Sannivesham</h3>
+              <p class="product-division">Damayanti Heritage</p>
+              <p class="product-desc">An independent initiative focused on Telugu language, culture, literature, history, and cultural content.</p>
+              <div class="product-action">
+                <span class="product-status-note">More details coming soon</span>
+              </div>
+            </article>
+          </noscript>
+        </div>
+
+        <!-- Honest Development Policy Note -->
+        <div class="notice-box" style="margin-top: 2.5rem;">
+          <strong>Ecosystem Status Standard:</strong> We do not mark projects as released or commercially available until they have been completed, verified, and officially launched. Action buttons and direct links will be made active as official destinations are established.
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section-ivory-light">
+      <div class="container text-center">
+        <span class="eyebrow eyebrow-navy">Future Developments</span>
+        <h2>Have an Enquiry About Any Initiative?</h2>
+        <p style="max-width: 600px; margin: 1rem auto 2rem auto; color: var(--color-charcoal);">
+          Whether inquiring about software development progress or cultural collaborations, reach out to our team.
+        </p>
+        <a href="./contact.html" class="btn btn-primary">Contact the Ecosystem Team</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="./index.html" class="brand-link" style="margin-bottom: 0.5rem;">
+            <div class="brand-emblem">
+              <img src="./assets/logos/crest-mark.svg" alt="" width="32" height="32">
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">Damayanti Crest</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            An independent business ecosystem bringing together technology, heritage, publications, and traditions.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="./index.html" class="footer-link">Home</a></li>
+            <li><a href="./about.html" class="footer-link">About Us</a></li>
+            <li><a href="./brands.html" class="footer-link">Our Brands</a></li>
+            <li><a href="./products.html" class="footer-link">Products</a></li>
+            <li><a href="./partnerships.html" class="footer-link">Partnerships</a></li>
+            <li><a href="./contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Our Divisions</h4>
+          <ul class="footer-links">
+            <li><a href="./brands.html#technologies" class="footer-link">Damayanti Technologies</a></li>
+            <li><a href="./brands.html#heritage" class="footer-link">Damayanti Heritage</a></li>
+            <li><a href="./brands.html#publications" class="footer-link">Damayanti Publications</a></li>
+            <li><a href="./brands.html#traditions" class="footer-link">Damayanti Traditions</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Contact & Enquiries</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:damayati.crest@gmail.com" class="footer-link">damayati.crest@gmail.com</a></li>
+            <li><span style="font-size: 0.85rem; color: var(--color-muted);">General enquiries, partnerships, and collaborations.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © <span class="current-year">2026</span> Damayanti Crest. All rights reserved.
+        </div>
+        <div class="footer-legal-links">
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./terms.html">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

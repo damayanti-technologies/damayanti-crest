@@ -1,0 +1,173 @@
+/* ==========================================================================
+   DAMAYANTI CREST — Responsive Breakpoints & Mobile Optimization
+   Mobile (<640px), Tablet (640px-1024px), Desktop (>1024px)
+   ========================================================================== */
+
+/* Tablet & Mobile Styles (Under 1024px) */
+@media (max-width: 1024px) {
+  :root {
+    --space-3xl: 3.5rem;
+    --space-4xl: 4.5rem;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .hero-wrapper {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2.5rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero-ctas {
+    justify-content: center;
+  }
+
+  .divisions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .principles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Mobile Devices (Under 768px) */
+@media (max-width: 768px) {
+  :root {
+    --space-2xl: 2.25rem;
+    --space-3xl: 3rem;
+    --space-4xl: 3.75rem;
+  }
+
+  .container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .header-inner {
+    height: 68px;
+  }
+
+  .mobile-drawer {
+    top: 68px;
+  }
+
+  .hero-motif-card {
+    max-width: 300px;
+    padding: 1.75rem;
+  }
+
+  .hero-motif-img {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 1rem;
+  }
+
+  .principles-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .division-card {
+    padding: 1.5rem;
+  }
+
+  .form-card {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .cta-banner {
+    padding: 2.25rem 1.25rem;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .back-to-top {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Very Small Screens (Under 380px) */
+@media (max-width: 380px) {
+  .hero-ctas .btn {
+    width: 100%;
+  }
+
+  .cta-banner-buttons .btn {
+    width: 100%;
+  }
+
+  .dialog-actions .btn {
+    width: 100%;
+  }
+
+  .brand-text .brand-name {
+    font-size: 1.1rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .site-header,
+  .site-footer,
+  .back-to-top,
+  .btn,
+  .menu-toggle,
+  .mobile-drawer {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .section {
+    padding: 1.5rem 0;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+}
