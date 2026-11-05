@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="#171B2B"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" stroke="#C5A15D" stroke-width="1.5" stroke-opacity="0.4"/>
+  
+  <!-- Crest Monogram: D and C interlace motif with gold accents -->
+  <circle cx="32" cy="32" r="21" stroke="#C5A15D" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <!-- Diamond heritage accent -->
+  <polygon points="32,15 36,19 32,23 28,19" fill="#C5A15D"/>
+  <polygon points="32,41 36,45 32,49 28,45" fill="#C5A15D"/>
+  
+  <!-- Stylized Monogram C and D -->
+  <path d="M26 23 V41 C26 41 38 41 38 32 C38 23 26 23 26 23 Z" fill="none" stroke="#F7F3EA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37 25 C34 22 29 22 25 25 C20 29 20 35 25 39 C29 42 34 42 37 39" fill="none" stroke="#C5A15D" stroke-width="2" stroke-linecap="round"/>
+</svg>

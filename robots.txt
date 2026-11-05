@@ -1,0 +1,10 @@
+# Damayanti Crest — robots.txt
+# Update the Sitemap URL once your custom domain or GitHub Pages URL is configured.
+
+User-agent: *
+Allow: /
+
+# Default Sitemap template (uncomment and update once domain is live):
+# Sitemap: https://damayanticrest.online/sitemap.xml
+# Or for GitHub Pages project site:
+# Sitemap: https://damayanti-technologies.github.io/damayanti-crest/sitemap.xml

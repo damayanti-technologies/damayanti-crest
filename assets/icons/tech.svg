@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <!-- Rounded container -->
+  <rect width="48" height="48" rx="10" fill="#171B2B"/>
+  <rect x="1" y="1" width="46" height="46" rx="9" stroke="#C5A15D" stroke-width="1" stroke-opacity="0.3"/>
+  
+  <!-- Modern Circuit / Software Architecture Icon -->
+  <rect x="13" y="13" width="22" height="22" rx="3" stroke="#C5A15D" stroke-width="2"/>
+  <rect x="19" y="19" width="10" height="10" rx="1.5" fill="#C5A15D" fill-opacity="0.2" stroke="#F7F3EA" stroke-width="1.5"/>
+  <!-- Traces and Nodes -->
+  <line x1="24" y1="8" x2="24" y2="13" stroke="#C5A15D" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="24" cy="8" r="1.5" fill="#C5A15D"/>
+  <line x1="24" y1="35" x2="24" y2="40" stroke="#C5A15D" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="24" cy="40" r="1.5" fill="#C5A15D"/>
+  <line x1="8" y1="24" x2="13" y2="24" stroke="#C5A15D" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="8" cy="24" r="1.5" fill="#C5A15D"/>
+  <line x1="35" y1="24" x2="40" y2="24" stroke="#C5A15D" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="40" cy="24" r="1.5" fill="#C5A15D"/>
+</svg>
